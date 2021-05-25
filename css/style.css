@@ -77,13 +77,35 @@ h1 {
 }
 
 ul {
-    margin-left: 20px;
     margin-bottom: 20px;
+    list-style: none;
 }
 
 li {
     margin-top: 15px;
     margin-right: 5px;
+}
+
+li:before {
+    font-size: 13px;
+    text-align: center;
+    height: 17px;
+    width: 17px;    
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.li-check:before {
+    content: "\2713";
+    color: green;
+    border-color: green;
+}
+
+.li-cross:before {
+    content: "\2717";
+    color: red;   
+    border-color: red;
 }
 
 .label {
