@@ -63,3 +63,38 @@ h1 {
     color: lightgray;
     border: 1px solid lightgray;
 }
+
+/* section */
+
+.new-task {
+    margin: 60px 0 30px 60px;
+}
+
+.triangle {
+    font-size: 12px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.label {
+    font-size: 11px;
+    color: white;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.blue-label {
+    background-color: rgb(35, 164, 235, 0.8);
+}
