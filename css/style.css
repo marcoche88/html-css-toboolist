@@ -24,6 +24,30 @@ body {
     margin: 40px 0 30px 60px;
 }
 
+.blue-label {
+    background-color: rgb(35, 164, 235, 0.8);
+}
+
+.purple-label {
+    background-color: rgb(147, 103, 220)
+} 
+
+.green-label {
+    background-color: rgb(74, 184, 160);
+}
+
+.orange-label {
+    background-color: rgb(248, 147, 58);
+}
+
+.pink-label {
+    background-color: rgb(219, 89, 150);
+}
+
+.lime-label {
+    background-color: rgb(165, 194, 53);
+}
+
 /* main header */
 
 .main-header {
@@ -71,7 +95,6 @@ h1 {
 
 /* section */
 
-
 .triangle {
     font-size: 12px;
 }
@@ -89,11 +112,11 @@ li {
 li:before {
     font-size: 13px;
     text-align: center;
+    display: inline-block;
     height: 17px;
     width: 17px;    
     border: 1px solid;
     border-radius: 50%;
-    display: inline-block;
 }
 
 .li-check:before {
@@ -117,28 +140,4 @@ li:before {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-}
-
-.blue-label {
-    background-color: rgb(35, 164, 235, 0.8);
-}
-
-.purple-label {
-    background-color: rgb(147, 103, 220)
-} 
-
-.green-label {
-    background-color: rgb(74, 184, 160);
-}
-
-.orange-label {
-    background-color: rgb(248, 147, 58);
-}
-
-.pink-label {
-    background-color: rgb(219, 89, 150);
-}
-
-.lime-label {
-    background-color: rgb(165, 194, 53);
 }
