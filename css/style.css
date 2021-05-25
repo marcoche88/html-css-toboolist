@@ -10,10 +10,18 @@ body {
     background-color: rgb(244, 247, 248);
 }
 
-/* header */
+.container {
+    width: 80%;
+    height: 1000px;
+    margin: 50px auto;
+}
+
+.bgr-white {
+    background-color: #fff;
+}
+/* main header */
 
 .main-header {
-    background-color: #fff;
     height: 90px;
 }
 
@@ -25,4 +33,33 @@ body {
 h1 {
     display: inline-block;
     line-height: 90px;
+}
+
+/* button-header */
+
+.button-header {
+    height: 60px;
+    border-bottom: 3px solid rgb(244, 247, 248);
+}
+
+.btn {
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+#btn-task {
+    color: white;
+    background-color: rgb(35, 164, 235, 0.8);
+    border: none;
+    margin: 15px 3px 5px 60px;
+}
+
+#btn-section {
+    color: lightgray;
+    border: 1px solid lightgray;
 }
