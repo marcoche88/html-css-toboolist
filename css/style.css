@@ -12,8 +12,8 @@ body {
 
 .container {
     width: 80%;
-    height: 1000px;
     margin: 50px auto;
+    padding-bottom: 20px;
 }
 
 .bgr-white {
@@ -111,4 +111,12 @@ li {
 
 .orange-label {
     background-color: rgb(248, 147, 58);
+}
+
+.pink-label {
+    background-color: rgb(219, 89, 150);
+}
+
+.lime-label {
+    background-color: rgb(165, 194, 53);
 }
